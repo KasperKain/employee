@@ -1,0 +1,28 @@
+.employeepage {
+  flex: 1;
+  border: solid 5px brown;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.card {
+  border-bottom: 2px solid rgb(218, 217, 217);
+  border-left: 2px solid rgb(218, 217, 217);
+  border-right: 2px solid rgb(218, 217, 217);
+}
+
+.employeeOverview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  gap: 25px;
+}
+
+.profile-icon {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
